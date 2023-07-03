@@ -42,7 +42,6 @@ body {
 }
 
 .desc-three {
-  text-align: center;
   color: var(--dark);
   font-size: 20px;
   font-family: "Roboto", sans-serif;
