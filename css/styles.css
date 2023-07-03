@@ -20,9 +20,8 @@ body {
   background-color: var(--white);
 }
 
-.h1-hero {
+.h-hero {
   color: var(--white);
-  text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -30,17 +29,17 @@ body {
   letter-spacing: 1.12px;
 }
 
-.all-h2 {
-  text-align: center;
+.all-two {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  color: var(--dark);
 }
 
-.desc-h3 {
+.desc-three {
   color: var(--dark);
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -72,7 +71,6 @@ main {
 .logo {
   font-family: "Raleway", sans-serif;
   color: var(--dark);
-  margin: 24px 76px 24px 0px;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -94,7 +92,6 @@ main {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -120,7 +117,7 @@ main {
 
 .header-navigation-address .connect:hover,
 .header-navigation-address .connect:focus {
-  color: var(--primary-brand);
+  color: var(--pressed-state);
 }
 
 .nav-buttons {
@@ -158,29 +155,15 @@ main {
   background: var(--pressed-state);
 }
 
-.images-block-1 a,
-.images-block-2 a,
-.images-block-3 a {
+.images-block-1 a {
   text-decoration: none;
 }
 
-main ul {
-  justify-content: center;
-  list-style-type: none;
-}
-
 .images_section_portfolio li {
-  margin: 0px 24px 48px 0px;
   background: var(--white);
 }
 
-main ul li:last-child {
-  margin-right: 0;
-}
-
 .hero {
-  justify-content: center;
-  align-items: center;
   background-color: var(--dark);
   color: var(--white);
 }
@@ -199,12 +182,10 @@ main ul li:last-child {
 
 .team_section li {
   background-color: var(--white);
-  text-align: center;
   background: var(--white);
 }
 
-footer {
-  justify-content: center;
+.footer-class {
   background-color: var(--dark);
   color: var(--light);
 }
