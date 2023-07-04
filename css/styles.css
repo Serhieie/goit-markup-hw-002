@@ -43,6 +43,7 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  font-weight: 500;
 }
 
 header {
@@ -72,6 +73,7 @@ main {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--primary-brand);
+  font-weight: 800;
 }
 .web_logo {
   color: var(--dark);
