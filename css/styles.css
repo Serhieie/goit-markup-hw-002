@@ -28,6 +28,14 @@ body {
   letter-spacing: 1.12px;
 }
 
+.all-two-portfolio {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: var(--dark);
+}
+
 .all-two {
   text-align: center;
   font-size: 36px;
